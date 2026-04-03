@@ -1,0 +1,26 @@
+{
+  "role_id": "root",
+  "summary": "Owns the primary public root entry surface and links adjacent canonical surfaces without collapsing their roles.",
+  "allowed_host_classes": [
+    "root"
+  ],
+  "forbidden_adjacent_semantics": [
+    "authority",
+    "runtime",
+    "verification",
+    "proof_publication"
+  ],
+  "required_readme_fields": [
+    "role",
+    "non_role",
+    "adjacent_surface_map",
+    "entry_boundary"
+  ],
+  "required_projection_features": [
+    "root_surface_reference"
+  ],
+  "forbidden_claims": [
+    "authority_source",
+    "runtime_executor"
+  ]
+}

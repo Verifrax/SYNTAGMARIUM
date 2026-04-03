@@ -1,0 +1,26 @@
+{
+  "role_id": "verification",
+  "summary": "Provides verifier-facing interfaces that evaluate artifacts or certificates against already-defined rules.",
+  "allowed_host_classes": [
+    "tool"
+  ],
+  "forbidden_adjacent_semantics": [
+    "proof_publication",
+    "authority",
+    "root",
+    "intake"
+  ],
+  "required_readme_fields": [
+    "role",
+    "non_role",
+    "verification_boundary",
+    "input_boundary"
+  ],
+  "required_projection_features": [
+    "verifier_reference"
+  ],
+  "forbidden_claims": [
+    "proof_publication",
+    "accepted_state_store"
+  ]
+}
