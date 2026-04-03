@@ -1,0 +1,22 @@
+{
+  "role_id": "world_state",
+  "summary": "Stores accepted graph, epoch, trust, contradiction, and history outputs.",
+  "allowed_host_classes": [],
+  "forbidden_adjacent_semantics": [
+    "constitutional_law",
+    "reconciler"
+  ],
+  "required_readme_fields": [
+    "role",
+    "non_role",
+    "epoch_doctrine",
+    "retention_doctrine"
+  ],
+  "required_projection_features": [
+    "epoch_reference"
+  ],
+  "forbidden_claims": [
+    "law_source",
+    "runtime_collector"
+  ]
+}

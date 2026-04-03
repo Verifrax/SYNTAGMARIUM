@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Host",
+  "type": "object",
+  "required": [
+    "fqdn",
+    "role",
+    "owning_repo",
+    "host_class",
+    "required_adjacent_links",
+    "forbidden_semantics",
+    "body_contract",
+    "status"
+  ],
+  "properties": {
+    "fqdn": {
+      "type": "string",
+      "minLength": 1
+    },
+    "role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "owning_repo": {
+      "type": "string",
+      "minLength": 1
+    },
+    "host_class": {
+      "type": "string",
+      "enum": [
+        "root",
+        "tool",
+        "reference",
+        "status"
+      ]
+    },
+    "required_adjacent_links": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "forbidden_semantics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "body_contract": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

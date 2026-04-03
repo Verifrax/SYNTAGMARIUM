@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RepairPlan",
+  "type": "object",
+  "required": [
+    "repair_id",
+    "object_id",
+    "repair_class",
+    "reason",
+    "status"
+  ],
+  "properties": {
+    "repair_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "object_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "repair_class": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}
