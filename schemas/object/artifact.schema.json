@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Artifact",
+  "type": "object",
+  "required": [
+    "artifact_id",
+    "artifact_type",
+    "current_truth_surfaces",
+    "historical_surfaces",
+    "required_bindings",
+    "verifier_surfaces",
+    "state",
+    "state_reason"
+  ],
+  "properties": {
+    "artifact_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "artifact_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "current_truth_surfaces": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "historical_surfaces": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "required_bindings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "verifier_surfaces": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "state": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state_reason": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

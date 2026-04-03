@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Package",
+  "type": "object",
+  "required": [
+    "name",
+    "source_repo",
+    "scope",
+    "visibility",
+    "expected_dist_tags",
+    "version_source",
+    "release_binding",
+    "status"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_repo": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "visibility": {
+      "type": "string",
+      "minLength": 1
+    },
+    "expected_dist_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "version_source": {
+      "type": "string",
+      "minLength": 1
+    },
+    "release_binding": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

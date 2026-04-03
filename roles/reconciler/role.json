@@ -1,0 +1,22 @@
+{
+  "role_id": "reconciler",
+  "summary": "Collects, normalizes, evaluates, repairs, quarantines, and emits epoch candidates.",
+  "allowed_host_classes": [],
+  "forbidden_adjacent_semantics": [
+    "constitutional_law",
+    "world_state"
+  ],
+  "required_readme_fields": [
+    "role",
+    "non_role",
+    "runtime_modes",
+    "repair_doctrine"
+  ],
+  "required_projection_features": [
+    "runtime_version_reference"
+  ],
+  "forbidden_claims": [
+    "law_source",
+    "long_term_truth_store"
+  ]
+}

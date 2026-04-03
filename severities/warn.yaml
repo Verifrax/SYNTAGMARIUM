@@ -1,0 +1,5 @@
+severity: warn
+examples:
+  - readability_weak
+  - optional_badge_inactive
+  - historical_index_gap

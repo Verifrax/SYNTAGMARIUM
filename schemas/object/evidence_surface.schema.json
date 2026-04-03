@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EvidenceSurface",
+  "type": "object",
+  "required": [
+    "path",
+    "surface_type",
+    "object_binding",
+    "state_class",
+    "can_override_active_truth",
+    "notes"
+  ],
+  "properties": {
+    "path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "surface_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "object_binding": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state_class": {
+      "type": "string",
+      "minLength": 1
+    },
+    "can_override_active_truth": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
