@@ -1,0 +1,26 @@
+{
+  "role_id": "runtime",
+  "summary": "Executes governed runtime or reconciliation behavior and emits receipts, outputs, or candidate state.",
+  "allowed_host_classes": [
+    "reference",
+    "tool"
+  ],
+  "forbidden_adjacent_semantics": [
+    "constitutional_law",
+    "proof_publication",
+    "archive"
+  ],
+  "required_readme_fields": [
+    "role",
+    "non_role",
+    "runtime_boundary",
+    "output_boundary"
+  ],
+  "required_projection_features": [
+    "runtime_mode_reference"
+  ],
+  "forbidden_claims": [
+    "law_source",
+    "accepted_state_store"
+  ]
+}

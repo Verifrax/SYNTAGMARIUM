@@ -1,0 +1,25 @@
+{
+  "role_id": "docs",
+  "summary": "Routes and explains documentation without replacing constitutional law, accepted state, or proof publication.",
+  "allowed_host_classes": [
+    "reference"
+  ],
+  "forbidden_adjacent_semantics": [
+    "constitutional_law",
+    "proof_publication",
+    "runtime"
+  ],
+  "required_readme_fields": [
+    "role",
+    "non_role",
+    "docs_boundary",
+    "canonical_link_boundary"
+  ],
+  "required_projection_features": [
+    "docs_reference"
+  ],
+  "forbidden_claims": [
+    "law_source",
+    "proof_primary"
+  ]
+}

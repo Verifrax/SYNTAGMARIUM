@@ -1,0 +1,26 @@
+{
+  "role_id": "proof_publication",
+  "summary": "Publishes proof or proof-linked material derived from already-defined truth surfaces.",
+  "allowed_host_classes": [
+    "reference"
+  ],
+  "forbidden_adjacent_semantics": [
+    "verification",
+    "runtime",
+    "authority",
+    "intake"
+  ],
+  "required_readme_fields": [
+    "role",
+    "non_role",
+    "publication_boundary",
+    "input_truth_boundary"
+  ],
+  "required_projection_features": [
+    "proof_reference"
+  ],
+  "forbidden_claims": [
+    "verification_tooling",
+    "law_source"
+  ]
+}

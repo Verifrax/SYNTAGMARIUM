@@ -1,0 +1,23 @@
+{
+  "role_id": "reference",
+  "summary": "Represents a bounded reference surface that explains or exposes already-defined truth without becoming the source of that truth.",
+  "allowed_host_classes": [
+    "reference"
+  ],
+  "forbidden_adjacent_semantics": [
+    "root"
+  ],
+  "required_readme_fields": [
+    "role",
+    "non_role",
+    "reference_boundary",
+    "upstream_boundary"
+  ],
+  "required_projection_features": [
+    "reference_surface"
+  ],
+  "forbidden_claims": [
+    "law_source",
+    "runtime_primary"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "role_id": "evidence_root",
+  "summary": "Holds evidence-root current-state, artifact index, and consistency surfaces subordinate to law and accepted epoch.",
+  "allowed_host_classes": [],
+  "forbidden_adjacent_semantics": [
+    "constitutional_law",
+    "world_state"
+  ],
+  "required_readme_fields": [
+    "role",
+    "non_role",
+    "artifact_boundary",
+    "current_truth_boundary"
+  ],
+  "required_projection_features": [
+    "current_state_index_reference"
+  ],
+  "forbidden_claims": [
+    "law_source",
+    "runtime_executor"
+  ]
+}

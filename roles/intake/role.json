@@ -1,0 +1,26 @@
+{
+  "role_id": "intake",
+  "summary": "Accepts or filters human submissions into structured reviewable signal without absorbing jobs, proof, or runtime semantics.",
+  "allowed_host_classes": [
+    "tool"
+  ],
+  "forbidden_adjacent_semantics": [
+    "proof_publication",
+    "verification",
+    "runtime",
+    "authority"
+  ],
+  "required_readme_fields": [
+    "role",
+    "non_role",
+    "submission_boundary",
+    "review_boundary"
+  ],
+  "required_projection_features": [
+    "intake_reference"
+  ],
+  "forbidden_claims": [
+    "employment_guarantee",
+    "proof_publication"
+  ]
+}

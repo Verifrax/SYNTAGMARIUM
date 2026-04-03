@@ -1,0 +1,25 @@
+{
+  "role_id": "archive",
+  "summary": "Stores archival or seal-reference material without becoming live proof-primary or runtime-primary.",
+  "allowed_host_classes": [
+    "reference"
+  ],
+  "forbidden_adjacent_semantics": [
+    "runtime",
+    "verification",
+    "intake"
+  ],
+  "required_readme_fields": [
+    "role",
+    "non_role",
+    "archive_boundary",
+    "live_boundary"
+  ],
+  "required_projection_features": [
+    "archive_reference"
+  ],
+  "forbidden_claims": [
+    "proof_primary",
+    "runtime_execution"
+  ]
+}

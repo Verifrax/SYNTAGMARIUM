@@ -1,0 +1,24 @@
+{
+  "role_id": "tool",
+  "summary": "Represents an operator or user-facing tool surface with bounded executable or interactive function.",
+  "allowed_host_classes": [
+    "tool"
+  ],
+  "forbidden_adjacent_semantics": [
+    "root",
+    "archive"
+  ],
+  "required_readme_fields": [
+    "role",
+    "non_role",
+    "tool_boundary",
+    "input_output_boundary"
+  ],
+  "required_projection_features": [
+    "tool_reference"
+  ],
+  "forbidden_claims": [
+    "law_source",
+    "accepted_state_store"
+  ]
+}

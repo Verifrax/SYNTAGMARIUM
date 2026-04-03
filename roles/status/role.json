@@ -1,0 +1,26 @@
+{
+  "role_id": "status",
+  "summary": "Publishes component health, incidents, and maintenance state for live surfaces.",
+  "allowed_host_classes": [
+    "status"
+  ],
+  "forbidden_adjacent_semantics": [
+    "root",
+    "authority",
+    "runtime",
+    "verification"
+  ],
+  "required_readme_fields": [
+    "role",
+    "non_role",
+    "component_boundary",
+    "status_boundary"
+  ],
+  "required_projection_features": [
+    "status_reference"
+  ],
+  "forbidden_claims": [
+    "law_source",
+    "proof_publication"
+  ]
+}
