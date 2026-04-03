@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ReadmeContract",
+  "type": "object",
+  "required": [
+    "role",
+    "non_role",
+    "dependency_direction",
+    "adjacent_surfaces",
+    "status"
+  ],
+  "properties": {
+    "role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "non_role": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dependency_direction": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "adjacent_surfaces": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

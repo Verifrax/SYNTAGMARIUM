@@ -1,0 +1,24 @@
+{
+  "role_id": "constitutional_law",
+  "summary": "Defines law, schemas, invariants, severity rules, and projection contracts.",
+  "allowed_host_classes": [],
+  "forbidden_adjacent_semantics": [
+    "world_state",
+    "reconciler",
+    "proof_publication",
+    "verification"
+  ],
+  "required_readme_fields": [
+    "role",
+    "non_role",
+    "dependency_direction",
+    "outputs"
+  ],
+  "required_projection_features": [
+    "law_version_reference"
+  ],
+  "forbidden_claims": [
+    "live_state_store",
+    "runtime_executor"
+  ]
+}

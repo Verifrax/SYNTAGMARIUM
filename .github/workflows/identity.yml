@@ -1,0 +1,26 @@
+name: Identity
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  identity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify root identity files
+        run: |
+          set -euo pipefail
+          test -f README.md
+          test -f CONSTITUTION.md
+          test -f VERSION
+          test -f LICENSE
+      - name: Verify required directories
+        run: |
+          set -euo pipefail
+          for d in             schemas/object schemas/graph schemas/epoch schemas/projection schemas/evidence             invariants/global invariants/repo invariants/package invariants/host invariants/artifact invariants/evidence             roles/root roles/tool roles/reference roles/docs roles/status roles/governance roles/evidence_root roles/constitutional_law roles/world_state roles/reconciler             transitions/lawful transitions/repairable transitions/quarantined transitions/exception             severities             contracts/readme contracts/badge contracts/host_body contracts/artifact_local contracts/evidence_index contracts/npm             exceptions examples tests
+          do
+            test -d "$d"
+          done

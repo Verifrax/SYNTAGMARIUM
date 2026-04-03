@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Repository",
+  "type": "object",
+  "required": [
+    "repo_id",
+    "name",
+    "primary_role",
+    "allowed_adjacent_roles",
+    "default_branch",
+    "license",
+    "host_ownership",
+    "package_ownership",
+    "artifact_relations",
+    "readme_contract",
+    "protection_policy",
+    "status"
+  ],
+  "properties": {
+    "repo_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "primary_role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "allowed_adjacent_roles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "default_branch": {
+      "type": "string",
+      "const": "main"
+    },
+    "license": {
+      "type": "string",
+      "const": "Apache-2.0"
+    },
+    "host_ownership": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "package_ownership": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "artifact_relations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "readme_contract": {
+      "type": "string",
+      "minLength": 1
+    },
+    "protection_policy": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}
