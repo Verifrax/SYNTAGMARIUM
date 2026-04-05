@@ -42,3 +42,7 @@ It is not the runtime.
 ## License
 
 Apache License 2.0
+
+- Repository class: sovereign law source
+- Public host ownership: none
+- npm package: none
