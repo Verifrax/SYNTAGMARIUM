@@ -1,0 +1,6 @@
+required_sections:
+  - exact role statement
+  - what this repo is
+  - what this repo is not
+  - dependency direction
+  - status

@@ -1,0 +1,3 @@
+id: I4
+name: one_host_one_owner_one_primary_role
+rule: Every public host has one owning repo, one primary role, and one host class.

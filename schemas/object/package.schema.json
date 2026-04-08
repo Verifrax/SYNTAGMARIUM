@@ -1,52 +1,15 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://verifrax.net/schemas/object/package.schema.json",
   "title": "Package",
   "type": "object",
-  "required": [
-    "name",
-    "source_repo",
-    "scope",
-    "visibility",
-    "expected_dist_tags",
-    "version_source",
-    "release_binding",
-    "status"
-  ],
+  "additionalProperties": false,
+  "required": ["package_name","source_repo","license","visibility","status"],
   "properties": {
-    "name": {
-      "type": "string",
-      "minLength": 1
-    },
-    "source_repo": {
-      "type": "string",
-      "minLength": 1
-    },
-    "scope": {
-      "type": "string",
-      "minLength": 1
-    },
-    "visibility": {
-      "type": "string",
-      "minLength": 1
-    },
-    "expected_dist_tags": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "version_source": {
-      "type": "string",
-      "minLength": 1
-    },
-    "release_binding": {
-      "type": "string",
-      "minLength": 1
-    },
-    "status": {
-      "type": "string",
-      "minLength": 1
-    }
-  },
-  "additionalProperties": false
+    "package_name": { "type": "string" },
+    "source_repo": { "type": "string" },
+    "license": { "type": "string", "const": "Apache-2.0" },
+    "visibility": { "type": "string", "enum": ["public","private","absent"] },
+    "status": { "type": "string", "enum": ["active","historical","quarantined"] }
+  }
 }

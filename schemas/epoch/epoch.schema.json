@@ -1,71 +1,24 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://verifrax.net/schemas/epoch/epoch.schema.json",
   "title": "Epoch",
   "type": "object",
+  "additionalProperties": false,
   "required": [
-    "epoch_id",
-    "timestamp",
-    "law_version",
-    "runtime_version",
-    "graph_digest",
-    "status",
-    "contradictions",
-    "repairs",
-    "quarantines",
-    "trust_summary_digest",
-    "proof_bundle_digest"
+    "epoch_id","timestamp","law_version","runtime_version","graph_digest","status",
+    "contradictions","repairs","quarantines","trust_summary_digest","proof_bundle_digest"
   ],
   "properties": {
-    "epoch_id": {
-      "type": "string",
-      "minLength": 1
-    },
-    "timestamp": {
-      "type": "string",
-      "minLength": 1
-    },
-    "law_version": {
-      "type": "string",
-      "minLength": 1
-    },
-    "runtime_version": {
-      "type": "string",
-      "minLength": 1
-    },
-    "graph_digest": {
-      "type": "string",
-      "minLength": 1
-    },
-    "status": {
-      "type": "string",
-      "minLength": 1
-    },
-    "contradictions": {
-      "type": "array",
-      "items": {
-        "type": "object"
-      }
-    },
-    "repairs": {
-      "type": "array",
-      "items": {
-        "type": "object"
-      }
-    },
-    "quarantines": {
-      "type": "array",
-      "items": {
-        "type": "object"
-      }
-    },
-    "trust_summary_digest": {
-      "type": "string",
-      "minLength": 1
-    },
-    "proof_bundle_digest": {
-      "type": "string",
-      "minLength": 1
-    }
-  },
-  "additionalProperties": false
+    "epoch_id": { "type": "string" },
+    "timestamp": { "type": "string" },
+    "law_version": { "type": "string" },
+    "runtime_version": { "type": "string" },
+    "graph_digest": { "type": "string" },
+    "status": { "type": "string", "enum": ["provisional","accepted","historical"] },
+    "contradictions": { "type": "array", "items": { "type": "object" } },
+    "repairs": { "type": "array", "items": { "type": "object" } },
+    "quarantines": { "type": "array", "items": { "type": "object" } },
+    "trust_summary_digest": { "type": "string" },
+    "proof_bundle_digest": { "type": "string" }
+  }
 }

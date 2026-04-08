@@ -1,0 +1,6 @@
+required_fields:
+  - host
+  - repo
+  - hostClass
+  - role
+  - adjacentHosts

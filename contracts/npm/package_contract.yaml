@@ -1,0 +1,5 @@
+required_fields:
+  - name
+  - license
+  - repository
+  - private_or_publishable_state

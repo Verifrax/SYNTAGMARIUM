@@ -1,29 +1,14 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://verifrax.net/schemas/graph/world.schema.json",
   "title": "WorldGraph",
   "type": "object",
-  "required": [
-    "law_version",
-    "nodes",
-    "edges"
-  ],
+  "additionalProperties": false,
+  "required": ["repos","hosts","packages","artifacts"],
   "properties": {
-    "law_version": {
-      "type": "string",
-      "minLength": 1
-    },
-    "nodes": {
-      "type": "array",
-      "items": {
-        "type": "object"
-      }
-    },
-    "edges": {
-      "type": "array",
-      "items": {
-        "type": "object"
-      }
-    }
-  },
-  "additionalProperties": false
+    "repos": { "type": "array", "items": { "type": "object" } },
+    "hosts": { "type": "array", "items": { "type": "object" } },
+    "packages": { "type": "array", "items": { "type": "object" } },
+    "artifacts": { "type": "array", "items": { "type": "object" } }
+  }
 }
