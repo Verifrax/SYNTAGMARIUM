@@ -39,6 +39,34 @@ This repository is the law source.
 It is not the world-state store.
 It is not the runtime.
 
+## Sovereign wiring
+
+**Inputs**
+- none from accepted world state
+- none from runtime reconciliation output
+
+**Outputs**
+- law loaded by CONSONORIUM during reconciliation
+- law referenced by ORBISTIUM for accepted-state legitimacy
+
+## Mutation authority
+
+Only constitutional law belongs here:
+- schemas
+- invariants
+- transitions
+- roles
+- exceptions
+- projection contracts
+
+Accepted epoch state does not belong here.
+Runtime reports do not belong here.
+Telemetry does not belong here.
+
+## Non-bypass rule
+
+No accepted epoch, runtime projection, or public host may redefine law.
+
 ## License
 
 Apache License 2.0
