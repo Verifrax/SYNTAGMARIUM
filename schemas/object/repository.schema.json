@@ -1,78 +1,17 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://verifrax.net/schemas/object/repository.schema.json",
   "title": "Repository",
   "type": "object",
-  "required": [
-    "repo_id",
-    "name",
-    "primary_role",
-    "allowed_adjacent_roles",
-    "default_branch",
-    "license",
-    "host_ownership",
-    "package_ownership",
-    "artifact_relations",
-    "readme_contract",
-    "protection_policy",
-    "status"
-  ],
+  "additionalProperties": false,
+  "required": ["repo_id","primary_role","default_branch","license","hosts","packages","status"],
   "properties": {
-    "repo_id": {
-      "type": "string",
-      "minLength": 1
-    },
-    "name": {
-      "type": "string",
-      "minLength": 1
-    },
-    "primary_role": {
-      "type": "string",
-      "minLength": 1
-    },
-    "allowed_adjacent_roles": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "default_branch": {
-      "type": "string",
-      "const": "main"
-    },
-    "license": {
-      "type": "string",
-      "const": "Apache-2.0"
-    },
-    "host_ownership": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "package_ownership": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "artifact_relations": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "readme_contract": {
-      "type": "string",
-      "minLength": 1
-    },
-    "protection_policy": {
-      "type": "string",
-      "minLength": 1
-    },
-    "status": {
-      "type": "string",
-      "minLength": 1
-    }
-  },
-  "additionalProperties": false
+    "repo_id": { "type": "string", "pattern": "^[A-Za-z0-9._-]+$" },
+    "primary_role": { "type": "string" },
+    "default_branch": { "type": "string", "const": "main" },
+    "license": { "type": "string", "const": "Apache-2.0" },
+    "hosts": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "packages": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "status": { "type": "string", "enum": ["active","historical","quarantined"] }
+  }
 }

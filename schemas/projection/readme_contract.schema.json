@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://verifrax.net/schemas/projection/readme_contract.schema.json",
+  "title": "ReadmeContract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["role_statement","what_it_is","what_it_is_not","dependency_direction","status"],
+  "properties": {
+    "role_statement": { "type": "string" },
+    "what_it_is": { "type": "array", "items": { "type": "string" } },
+    "what_it_is_not": { "type": "array", "items": { "type": "string" } },
+    "dependency_direction": { "type": "string" },
+    "status": { "type": "string" }
+  }
+}

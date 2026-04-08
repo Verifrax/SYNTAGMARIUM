@@ -1,5 +1,2 @@
-severity: hard_fail
-examples:
-  - wrong_license
-  - host_owner_mismatch
-  - active_truth_contradiction
+name: hard_fail
+meaning: constitutional violation

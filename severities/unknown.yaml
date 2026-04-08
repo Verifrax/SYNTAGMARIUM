@@ -1,5 +1,2 @@
-severity: unknown
-examples:
-  - unverified_registry_state
-  - unavailable_platform_data
-  - unresolved_domain_ownership
+name: unknown
+meaning: unresolved state is failure-class and must not pass silently

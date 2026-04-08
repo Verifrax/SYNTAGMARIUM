@@ -1,0 +1,3 @@
+id: I1
+name: one_active_truth_per_object
+rule: Any governed object may have exactly one active current-truth state.

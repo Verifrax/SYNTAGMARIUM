@@ -1,5 +1,2 @@
-severity: quarantine
-examples:
-  - unresolved_host_role_mismatch
-  - unresolved_package_ownership
-  - unresolved_artifact_truth_split
+name: quarantine
+meaning: unsafe or ambiguous state requiring isolation
