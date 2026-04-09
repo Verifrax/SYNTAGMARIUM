@@ -1,0 +1,4 @@
+id: no_verdict_without_pinned_law
+scope: verdict
+rule: public verdicts must name a pinned SYNTAGMARIUM law reference
+severity: hard_fail
