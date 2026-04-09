@@ -1,0 +1,4 @@
+id: no_public_verdict_outranks_accepted_state
+scope: verdict
+rule: public verdicts are subordinate to accepted state and must not outrank ORBISTIUM current truth
+severity: hard_fail

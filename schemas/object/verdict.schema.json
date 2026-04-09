@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://verifrax.net/schemas/object/verdict.schema.json",
+  "title": "VERIFRAX Verdict",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "law_ref",
+    "state_ref",
+    "proof_ref",
+    "execution_ref",
+    "verifier_version",
+    "verdict",
+    "reason_codes",
+    "contradictions",
+    "generated_at"
+  ],
+  "properties": {
+    "law_ref": {
+      "type": "string",
+      "pattern": "^SYNTAGMARIUM@.+$"
+    },
+    "state_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "proof_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "execution_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verifier_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FAIL",
+        "INDETERMINATE",
+        "CONTRADICTED"
+      ]
+    },
+    "reason_codes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "contradictions": {
+      "type": "array"
+    },
+    "generated_at": {
+      "type": "string"
+    }
+  }
+}
