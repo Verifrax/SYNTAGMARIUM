@@ -2,6 +2,11 @@
 
 SYNTAGMARIUM is the constitutional law repository for the Verifrax system.
 
+## Terminal planes
+
+- **[ANAGNORIUM](https://github.com/Verifrax/ANAGNORIUM)** — terminal recognition
+- **[REGRESSORIUM](https://github.com/Verifrax/REGRESSORIUM)** — terminal recourse
+
 ## What this repository is
 
 SYNTAGMARIUM defines the lawful grammar of the Verifrax system:
@@ -74,3 +79,11 @@ Apache License 2.0
 - Repository class: sovereign law source
 - Public host ownership: none
 - npm package: none
+
+## Adjacent sovereign surfaces
+
+This repository is part of the Verifrax sovereign stack and remains bounded relative to:
+
+- **[ANAGNORIUM](https://github.com/Verifrax/ANAGNORIUM)** for terminal recognition
+- **[REGRESSORIUM](https://github.com/Verifrax/REGRESSORIUM)** for terminal recourse
+
