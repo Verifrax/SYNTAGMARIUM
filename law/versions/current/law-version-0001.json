@@ -1,0 +1,41 @@
+{
+  "object_type": "LawVersion",
+  "law_version_id": "law-version-0001",
+  "status": "ACTIVE_TRUTH",
+  "title": "SYNTAGMARIUM constitutional law version 0.1.0",
+  "repository": "SYNTAGMARIUM",
+  "version": "0.1.0",
+  "effective_surface": {
+    "constitution": "CONSTITUTION.md",
+    "readme": "README.md",
+    "version_file": "VERSION",
+    "claim_class_index": "claim-classes/index.json",
+    "roles_root": "roles/README.md",
+    "schemas_root": "schemas/README.md",
+    "contracts_root": "contracts/README.md",
+    "invariants_root": "invariants/README.md",
+    "transitions_root": "transitions/README.md"
+  },
+  "governs_minimum_object_chain": [
+    "law-version",
+    "freeze-object",
+    "accepted-epoch",
+    "authority-object",
+    "execution-receipt",
+    "verification-result",
+    "recognition-object",
+    "recourse-object",
+    "continuity-transfer"
+  ],
+  "admission_index_ref": "claim-classes/index.json",
+  "historical_archive_root": "law/versions/history/",
+  "boundary_rules": [
+    "This object defines constitutional law version only.",
+    "This object does not define accepted epoch state.",
+    "This object does not issue authority objects.",
+    "This object does not execute.",
+    "This object does not verify.",
+    "This object does not recognize.",
+    "This object does not assign recourse."
+  ]
+}
