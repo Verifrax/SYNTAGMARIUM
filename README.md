@@ -31,6 +31,7 @@ It does not replace adjacent sovereign boundaries.
 - provides a clean doctrinal boundary for adjacent repositories and public readers
 - anchors higher-order rule structure above runtime, state, reconciliation, cognition, execution, and verification
 - defines admitted claim classes for the minimum governed object chain
+- publishes the current concrete law-version object for the governed stack
 
 ## What it does not do
 
@@ -64,7 +65,7 @@ That separation must remain explicit.
 
 ## Public surface
 
-The public surface of this repository is its repository identity, README boundary, claim-class law, and any explicitly published SYNTAGMARIUM doctrinal materials carried by this repository.
+The public surface of this repository is its repository identity, README boundary, claim-class law, the current law-version object, and any explicitly published SYNTAGMARIUM doctrinal materials carried by this repository.
 
 Publication here is not execution.
 Publication here is not verification.
@@ -110,6 +111,12 @@ What does not belong here merely by reference:
 - proof publication artifacts
 
 Doctrine is not runtime.
+
+## Law-version object
+
+- current active law-version object: `law/versions/current/law-version-0001.json`
+- historical law-version archive: `law/versions/history/`
+- this object binds the current constitutional surface to a concrete machine-readable law identity
 
 ## Not this
 
