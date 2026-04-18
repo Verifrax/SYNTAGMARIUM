@@ -1,0 +1,24 @@
+{
+  "object_type": "ContinuityTransfer",
+  "continuity_transfer_id": "continuity-transfer-0001",
+  "title": "Current constitutional continuity-transfer object",
+  "status": "ACTIVE_TRUTH",
+  "admission_index_ref": "claim-classes/index.json",
+  "governing_law_version_ref": "law/versions/current/law-version-0001.json",
+  "governing_freeze_object_ref": "freeze/objects/current/freeze-object-0001.json",
+  "claim_class_ref": "claim-classes/continuity-transfer.json",
+  "scope": "minimum governed object chain",
+  "continuity_mode": "active_constitutional_surface",
+  "successor_surface": "SYNTAGMARIUM",
+  "historical_archive_ref": "continuity/objects/history/",
+  "requirements": [
+    "must declare the exact succession or transfer boundary",
+    "must distinguish active continuity from historical lineage narrative",
+    "must remain subordinate to governing law version and freeze object"
+  ],
+  "forbidden_reads": [
+    "repository continuity alone presented as lawful succession",
+    "historical archive presence presented as transfer authorization",
+    "implicit maintainer control presented as constitutional continuity"
+  ]
+}

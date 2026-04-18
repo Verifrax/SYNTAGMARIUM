@@ -33,6 +33,7 @@ It does not replace adjacent sovereign boundaries.
 - defines admitted claim classes for the minimum governed object chain
 - publishes the current concrete law-version object for the governed stack
 - publishes the current concrete freeze-object for the governed stack
+- publishes the current concrete continuity-transfer object for the governed stack
 
 ## What it does not do
 
@@ -66,7 +67,7 @@ That separation must remain explicit.
 
 ## Public surface
 
-The public surface of this repository is its repository identity, README boundary, claim-class law, the current law-version object, the current freeze-object, and any explicitly published SYNTAGMARIUM doctrinal materials carried by this repository.
+The public surface of this repository is its repository identity, README boundary, claim-class law, the current law-version object, the current freeze-object, the current continuity-transfer object, and any explicitly published SYNTAGMARIUM doctrinal materials carried by this repository.
 
 Publication here is not execution.
 Publication here is not verification.
@@ -118,6 +119,12 @@ Doctrine is not runtime.
 - current active freeze-object: `freeze/objects/current/freeze-object-0001.json`
 - historical freeze archive: `freeze/objects/history/`
 - this object binds the current constitutional surface to a concrete machine-readable freeze identity
+
+## Continuity-transfer object
+
+- current active continuity-transfer object: `continuity/objects/current/continuity-transfer-0001.json`
+- historical continuity-transfer archive: `continuity/objects/history/`
+- this object binds the current constitutional surface to a concrete machine-readable continuity boundary
 
 ## Law-version object
 
