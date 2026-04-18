@@ -1,0 +1,35 @@
+{
+  "object_type": "ClaimClass",
+  "claim_class_id": "freeze-object",
+  "title": "Freeze object",
+  "status": "active",
+  "governing_boundary": "SYNTAGMARIUM",
+  "chain_stage": 2,
+  "question": "Which freeze object preserves the bounded immutable release or truth snapshot?",
+  "canonical_object_family": "freezes",
+  "truth_modes": [
+    "ACTIVE_TRUTH",
+    "HISTORICAL_SNAPSHOT"
+  ],
+  "minimum_required_fields": [
+    "freeze_id",
+    "subject_ref",
+    "freeze_hash",
+    "status"
+  ],
+  "admission_rules": [
+    "must bind to a declared subject and byte-stable digest",
+    "must distinguish active freeze from historical freeze",
+    "must preserve reproducible reconstruction inputs"
+  ],
+  "forbidden_substitutions": [
+    "mutable branch state presented as freeze truth",
+    "historical archive text used as active freeze identity",
+    "unsigned digest notes without a freeze object"
+  ],
+  "downstream_requirements": [
+    "accepted-epoch",
+    "verification-result",
+    "continuity-transfer"
+  ]
+}

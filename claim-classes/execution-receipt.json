@@ -1,0 +1,35 @@
+{
+  "object_type": "ClaimClass",
+  "claim_class_id": "execution-receipt",
+  "title": "Execution receipt",
+  "status": "active",
+  "governing_boundary": "SYNTAGMARIUM",
+  "chain_stage": 5,
+  "question": "Which execution receipt records what happened under bounded authority?",
+  "canonical_object_family": "receipts",
+  "truth_modes": [
+    "ACTIVE_TRUTH",
+    "HISTORICAL_SNAPSHOT"
+  ],
+  "minimum_required_fields": [
+    "receipt_id",
+    "authority_ref",
+    "outcome",
+    "timestamp"
+  ],
+  "admission_rules": [
+    "must bind to a specific authority object or authority reference",
+    "must preserve one canonical receipt identity",
+    "must distinguish execution-of-record from examples or fixtures"
+  ],
+  "forbidden_substitutions": [
+    "stdout fragments used as the sole receipt identity",
+    "fixture receipts presented as active public execution truth",
+    "verification result used as a substitute for receipt evidence"
+  ],
+  "downstream_requirements": [
+    "verification-result",
+    "recognition-object",
+    "recourse-object"
+  ]
+}

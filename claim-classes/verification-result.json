@@ -1,0 +1,34 @@
+{
+  "object_type": "ClaimClass",
+  "claim_class_id": "verification-result",
+  "title": "Verification result",
+  "status": "active",
+  "governing_boundary": "SYNTAGMARIUM",
+  "chain_stage": 6,
+  "question": "Which verification result states the bounded verifier outcome for the subject?",
+  "canonical_object_family": "verifications",
+  "truth_modes": [
+    "ACTIVE_TRUTH",
+    "HISTORICAL_SNAPSHOT"
+  ],
+  "minimum_required_fields": [
+    "verification_id",
+    "subject_ref",
+    "verdict",
+    "law_version_ref"
+  ],
+  "admission_rules": [
+    "must pin governing law or schema basis",
+    "must identify subject and verdict deterministically",
+    "must not outrank accepted epoch or law"
+  ],
+  "forbidden_substitutions": [
+    "proof publication presented as verification-of-record",
+    "execution receipt presented as verifier outcome",
+    "public UI text presented without a verification object"
+  ],
+  "downstream_requirements": [
+    "recognition-object",
+    "recourse-object"
+  ]
+}

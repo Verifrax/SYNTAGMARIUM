@@ -1,0 +1,35 @@
+{
+  "object_type": "ClaimClass",
+  "claim_class_id": "authority-object",
+  "title": "Authority object",
+  "status": "active",
+  "governing_boundary": "SYNTAGMARIUM",
+  "chain_stage": 4,
+  "question": "Which bounded authority object authorizes the governed act or state transition?",
+  "canonical_object_family": "authorities/current",
+  "truth_modes": [
+    "ACTIVE_TRUTH",
+    "HISTORICAL_SNAPSHOT"
+  ],
+  "minimum_required_fields": [
+    "authority_id",
+    "issuer",
+    "scope",
+    "status"
+  ],
+  "admission_rules": [
+    "must be published on a canonical authority surface",
+    "must declare scope, issuer, and validity boundary",
+    "must be independently inspectable as an object"
+  ],
+  "forbidden_substitutions": [
+    "founder narration used instead of authority object",
+    "historical or revoked authority reused as current authority",
+    "execution receipt used as authority source"
+  ],
+  "downstream_requirements": [
+    "execution-receipt",
+    "recognition-object",
+    "recourse-object"
+  ]
+}

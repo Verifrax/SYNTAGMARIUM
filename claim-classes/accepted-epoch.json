@@ -1,0 +1,36 @@
+{
+  "object_type": "ClaimClass",
+  "claim_class_id": "accepted-epoch",
+  "title": "Accepted epoch",
+  "status": "active",
+  "governing_boundary": "SYNTAGMARIUM",
+  "chain_stage": 3,
+  "question": "Which accepted epoch is current for the governed subject set?",
+  "canonical_object_family": "epochs/current and epochs/history",
+  "truth_modes": [
+    "ACTIVE_TRUTH",
+    "HISTORICAL_SNAPSHOT"
+  ],
+  "minimum_required_fields": [
+    "epoch_id",
+    "status",
+    "accepted_at",
+    "digest"
+  ],
+  "admission_rules": [
+    "must resolve one current accepted epoch",
+    "must preserve prior accepted epochs as historical lineage",
+    "must remain subordinate to governing law version"
+  ],
+  "forbidden_substitutions": [
+    "runtime observation presented as accepted state",
+    "projection output presented as epoch authority",
+    "unaccepted candidate epoch presented as current truth"
+  ],
+  "downstream_requirements": [
+    "authority-object",
+    "verification-result",
+    "recognition-object",
+    "recourse-object"
+  ]
+}

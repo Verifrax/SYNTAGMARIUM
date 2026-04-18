@@ -1,0 +1,36 @@
+{
+  "object_type": "ClaimClass",
+  "claim_class_id": "law-version",
+  "title": "Law version",
+  "status": "active",
+  "governing_boundary": "SYNTAGMARIUM",
+  "chain_stage": 1,
+  "question": "Which law version governs the subject under review?",
+  "canonical_object_family": "law/versions",
+  "truth_modes": [
+    "ACTIVE_TRUTH",
+    "HISTORICAL_SNAPSHOT"
+  ],
+  "minimum_required_fields": [
+    "law_version_id",
+    "version",
+    "effective_from",
+    "status"
+  ],
+  "admission_rules": [
+    "must be published on a canonical law surface",
+    "must identify one governing version unambiguously",
+    "must be immutable once admitted as active law"
+  ],
+  "forbidden_substitutions": [
+    "README prose without a law-version object",
+    "host or package metadata presented as law",
+    "accepted-epoch state used as a substitute for law"
+  ],
+  "downstream_requirements": [
+    "accepted-epoch",
+    "verification-result",
+    "recognition-object",
+    "recourse-object"
+  ]
+}
