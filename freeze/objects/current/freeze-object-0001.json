@@ -1,0 +1,34 @@
+{
+  "object_type": "FreezeObject",
+  "freeze_object_id": "freeze-object-0001",
+  "status": "ACTIVE_TRUTH",
+  "title": "SYNTAGMARIUM minimum freeze object",
+  "governing_law_version_ref": "law/versions/current/law-version-0001.json",
+  "admission_index_ref": "claim-classes/index.json",
+  "claim_class_ref": "claim-classes/freeze-object.json",
+  "scope": {
+    "surface": "SYNTAGMARIUM",
+    "boundary": "constitutional-law freeze identity for the minimum governed object chain"
+  },
+  "freezes_minimum_object_chain": [
+    "law-version",
+    "freeze-object",
+    "accepted-epoch",
+    "authority-object",
+    "execution-receipt",
+    "verification-result",
+    "recognition-object",
+    "recourse-object",
+    "continuity-transfer"
+  ],
+  "invariants": [
+    "must distinguish current freeze identity from historical freeze lineage",
+    "must remain subordinate to current law-version object",
+    "must not let archive text or digest notes impersonate active freeze identity"
+  ],
+  "historical_archive_ref": "freeze/objects/history/",
+  "notes": [
+    "This is the concrete current freeze object required by Gate C.",
+    "Historical freeze lineage must remain separated from active freeze identity."
+  ]
+}

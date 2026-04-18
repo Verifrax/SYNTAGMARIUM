@@ -24,3 +24,4 @@ No active Verifrax surface may contradict the reconciled epoch.
 10. Publicly relevant entry surfaces must be legible in under 30 seconds.
 11. No governed object class is admitted without an explicit claim-class definition.
 12. No active constitutional surface exists without a concrete current law-version object.
+13. No active constitutional surface exists without a concrete current freeze-object.
