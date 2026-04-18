@@ -1,0 +1,62 @@
+{
+  "object_type": "ClaimClassIndex",
+  "status": "active",
+  "governing_boundary": "SYNTAGMARIUM",
+  "purpose": "Canonical admission-law index for the minimum cross-stack object chain.",
+  "classes": [
+    {
+      "claim_class_id": "law-version",
+      "title": "Law version",
+      "chain_stage": 1,
+      "path": "claim-classes/law-version.json"
+    },
+    {
+      "claim_class_id": "freeze-object",
+      "title": "Freeze object",
+      "chain_stage": 2,
+      "path": "claim-classes/freeze-object.json"
+    },
+    {
+      "claim_class_id": "accepted-epoch",
+      "title": "Accepted epoch",
+      "chain_stage": 3,
+      "path": "claim-classes/accepted-epoch.json"
+    },
+    {
+      "claim_class_id": "authority-object",
+      "title": "Authority object",
+      "chain_stage": 4,
+      "path": "claim-classes/authority-object.json"
+    },
+    {
+      "claim_class_id": "execution-receipt",
+      "title": "Execution receipt",
+      "chain_stage": 5,
+      "path": "claim-classes/execution-receipt.json"
+    },
+    {
+      "claim_class_id": "verification-result",
+      "title": "Verification result",
+      "chain_stage": 6,
+      "path": "claim-classes/verification-result.json"
+    },
+    {
+      "claim_class_id": "recognition-object",
+      "title": "Recognition object",
+      "chain_stage": 7,
+      "path": "claim-classes/recognition-object.json"
+    },
+    {
+      "claim_class_id": "recourse-object",
+      "title": "Recourse object",
+      "chain_stage": 8,
+      "path": "claim-classes/recourse-object.json"
+    },
+    {
+      "claim_class_id": "continuity-transfer",
+      "title": "Continuity / transfer object",
+      "chain_stage": 9,
+      "path": "claim-classes/continuity-transfer.json"
+    }
+  ]
+}

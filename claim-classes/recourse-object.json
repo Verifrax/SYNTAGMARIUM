@@ -1,0 +1,33 @@
+{
+  "object_type": "ClaimClass",
+  "claim_class_id": "recourse-object",
+  "title": "Recourse object",
+  "status": "active",
+  "governing_boundary": "SYNTAGMARIUM",
+  "chain_stage": 8,
+  "question": "Which recourse object defines burden, remedy, escalation, or closure after recognition?",
+  "canonical_object_family": "recourses",
+  "truth_modes": [
+    "ACTIVE_TRUTH",
+    "HISTORICAL_SNAPSHOT"
+  ],
+  "minimum_required_fields": [
+    "recourse_id",
+    "recognition_ref",
+    "counterparty_scope",
+    "closure_state"
+  ],
+  "admission_rules": [
+    "must bind to a recognition object",
+    "must declare remedy, burden, or closure path explicitly",
+    "must not redefine underlying truth or law"
+  ],
+  "forbidden_substitutions": [
+    "recognition text presented as recourse assignment",
+    "verification result presented as remedy matrix",
+    "authority object presented as closure decision"
+  ],
+  "downstream_requirements": [
+    "continuity-transfer"
+  ]
+}

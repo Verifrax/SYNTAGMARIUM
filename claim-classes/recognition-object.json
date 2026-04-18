@@ -1,0 +1,33 @@
+{
+  "object_type": "ClaimClass",
+  "claim_class_id": "recognition-object",
+  "title": "Recognition object",
+  "status": "active",
+  "governing_boundary": "SYNTAGMARIUM",
+  "chain_stage": 7,
+  "question": "Which recognition object determines admissibility or terminal recognition of a bounded claim?",
+  "canonical_object_family": "recognitions",
+  "truth_modes": [
+    "ACTIVE_TRUTH",
+    "HISTORICAL_SNAPSHOT"
+  ],
+  "minimum_required_fields": [
+    "recognition_id",
+    "subject_ref",
+    "recognized_status",
+    "basis_refs"
+  ],
+  "admission_rules": [
+    "must bind to law, epoch, and supporting bounded objects",
+    "must state recognition scope explicitly",
+    "must not assign remedy or burden by itself"
+  ],
+  "forbidden_substitutions": [
+    "verification verdict presented as recognition closure",
+    "recourse demand presented as recognition outcome",
+    "cognitive output presented as recognition-of-record"
+  ],
+  "downstream_requirements": [
+    "recourse-object"
+  ]
+}

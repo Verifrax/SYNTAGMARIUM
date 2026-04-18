@@ -1,0 +1,31 @@
+{
+  "object_type": "ClaimClass",
+  "claim_class_id": "continuity-transfer",
+  "title": "Continuity / transfer object",
+  "status": "active",
+  "governing_boundary": "SYNTAGMARIUM",
+  "chain_stage": 9,
+  "question": "Which continuity or transfer object governs succession, reconstruction, or custodial handoff?",
+  "canonical_object_family": "continuity",
+  "truth_modes": [
+    "ACTIVE_TRUTH",
+    "HISTORICAL_SNAPSHOT"
+  ],
+  "minimum_required_fields": [
+    "continuity_id",
+    "from_boundary",
+    "to_boundary",
+    "status"
+  ],
+  "admission_rules": [
+    "must declare the exact succession or transfer boundary",
+    "must preserve reconstructability beyond a single maintainer",
+    "must distinguish active continuity from historical lineage narrative"
+  ],
+  "forbidden_substitutions": [
+    "repository continuity alone presented as lawful succession",
+    "historical archive presence presented as transfer authorization",
+    "implicit maintainer control presented as constitutional continuity"
+  ],
+  "downstream_requirements": []
+}

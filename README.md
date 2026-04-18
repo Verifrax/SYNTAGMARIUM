@@ -30,6 +30,7 @@ It does not replace adjacent sovereign boundaries.
 - preserves governing-law language as a bounded sovereign function
 - provides a clean doctrinal boundary for adjacent repositories and public readers
 - anchors higher-order rule structure above runtime, state, reconciliation, cognition, execution, and verification
+- defines admitted claim classes for the minimum governed object chain
 
 ## What it does not do
 
@@ -63,7 +64,7 @@ That separation must remain explicit.
 
 ## Public surface
 
-The public surface of this repository is its repository identity, README boundary, and any explicitly published SYNTAGMARIUM doctrinal materials carried by this repository.
+The public surface of this repository is its repository identity, README boundary, claim-class law, and any explicitly published SYNTAGMARIUM doctrinal materials carried by this repository.
 
 Publication here is not execution.
 Publication here is not verification.
@@ -98,6 +99,7 @@ What belongs here:
 - constitutional rule structure
 - governing boundary language
 - doctrinal supremacy language inside the stack
+- claim-class admission doctrine for governed object families
 
 What does not belong here merely by reference:
 - runtime outputs

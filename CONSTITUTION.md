@@ -22,3 +22,4 @@ No active Verifrax surface may contradict the reconciled epoch.
 8. Apache-2.0 is the default governed license.
 9. The durable default branch is main unless law explicitly grants an exception.
 10. Publicly relevant entry surfaces must be legible in under 30 seconds.
+11. No governed object class is admitted without an explicit claim-class definition.
