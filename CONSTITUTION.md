@@ -25,3 +25,4 @@ No active Verifrax surface may contradict the reconciled epoch.
 11. No governed object class is admitted without an explicit claim-class definition.
 12. No active constitutional surface exists without a concrete current law-version object.
 13. No active constitutional surface exists without a concrete current freeze-object.
+14. No active constitutional surface exists without a concrete current continuity-transfer object.
