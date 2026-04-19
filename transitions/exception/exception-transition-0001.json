@@ -1,0 +1,21 @@
+{
+  "object_type": "TransitionRule",
+  "transition_rule_id": "exception-transition-0001",
+  "status": "ACTIVE_TRUTH",
+  "transition_class": "EXCEPTION",
+  "path_class": "exception",
+  "description": "When an explicit exception path is allowed without silently rewriting constitutional law.",
+  "required_inputs": [
+    "governing law version",
+    "admitted claim class",
+    "current object identity",
+    "explicit state-reading input"
+  ],
+  "forbidden_effects": [
+    "silent law mutation",
+    "silent epoch mutation",
+    "projection outranking law",
+    "historical material impersonating current truth"
+  ],
+  "historical_archive_ref": "transitions/README.md"
+}

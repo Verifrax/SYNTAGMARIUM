@@ -37,5 +37,15 @@
     "This object does not verify.",
     "This object does not recognize.",
     "This object does not assign recourse."
-  ]
+  ],
+  "surface_roots": {
+    "claim_class_index": "claim-classes/index.json",
+    "roles_index": "roles/index.json",
+    "schemas_index": "schemas/index.json",
+    "contracts_index": "contracts/index.json",
+    "invariants_index": "invariants/index.json",
+    "transitions_index": "transitions/index.json"
+  },
+  "current_freeze_object_ref": "freeze/objects/current/freeze-object-0001.json",
+  "current_continuity_transfer_object_ref": "continuity/objects/current/continuity-transfer-0001.json"
 }

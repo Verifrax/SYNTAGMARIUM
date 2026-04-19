@@ -1,0 +1,28 @@
+{
+  "object_type": "TransitionCatalog",
+  "status": "ACTIVE_TRUTH",
+  "historical": false,
+  "catalog_version": "0.1.0",
+  "entries": [
+    {
+      "transition_rule_id": "lawful-transition-0001",
+      "transition_class": "LAWFUL",
+      "path": "transitions/lawful/lawful-transition-0001.json"
+    },
+    {
+      "transition_rule_id": "repairable-transition-0001",
+      "transition_class": "REPAIRABLE",
+      "path": "transitions/repairable/repairable-transition-0001.json"
+    },
+    {
+      "transition_rule_id": "quarantined-transition-0001",
+      "transition_class": "QUARANTINED",
+      "path": "transitions/quarantined/quarantined-transition-0001.json"
+    },
+    {
+      "transition_rule_id": "exception-transition-0001",
+      "transition_class": "EXCEPTION",
+      "path": "transitions/exception/exception-transition-0001.json"
+    }
+  ]
+}

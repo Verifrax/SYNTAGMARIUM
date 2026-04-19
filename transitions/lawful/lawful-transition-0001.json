@@ -1,0 +1,21 @@
+{
+  "object_type": "TransitionRule",
+  "transition_rule_id": "lawful-transition-0001",
+  "status": "ACTIVE_TRUTH",
+  "transition_class": "LAWFUL",
+  "path_class": "lawful",
+  "description": "When a governed candidate may become current active truth under already-published law.",
+  "required_inputs": [
+    "governing law version",
+    "admitted claim class",
+    "current object identity",
+    "explicit state-reading input"
+  ],
+  "forbidden_effects": [
+    "silent law mutation",
+    "silent epoch mutation",
+    "projection outranking law",
+    "historical material impersonating current truth"
+  ],
+  "historical_archive_ref": "transitions/README.md"
+}

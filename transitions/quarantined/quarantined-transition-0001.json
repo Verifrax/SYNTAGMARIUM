@@ -1,0 +1,21 @@
+{
+  "object_type": "TransitionRule",
+  "transition_rule_id": "quarantined-transition-0001",
+  "status": "ACTIVE_TRUTH",
+  "transition_class": "QUARANTINED",
+  "path_class": "quarantined",
+  "description": "When a governed candidate must be isolated from current active truth pending contradiction handling.",
+  "required_inputs": [
+    "governing law version",
+    "admitted claim class",
+    "current object identity",
+    "explicit state-reading input"
+  ],
+  "forbidden_effects": [
+    "silent law mutation",
+    "silent epoch mutation",
+    "projection outranking law",
+    "historical material impersonating current truth"
+  ],
+  "historical_archive_ref": "transitions/README.md"
+}
