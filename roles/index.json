@@ -1,0 +1,91 @@
+{
+  "object_type": "RoleCatalog",
+  "status": "ACTIVE_TRUTH",
+  "historical": false,
+  "catalog_version": "0.1.0",
+  "entries": [
+    {
+      "role_id": "archive",
+      "path": "roles/archive/role.json",
+      "summary": "Stores archival or seal-reference material without becoming live proof-primary or runtime-primary."
+    },
+    {
+      "role_id": "authority",
+      "path": "roles/authority/role.json",
+      "summary": "Issues or records authority objects, authority digests, and authority verification references."
+    },
+    {
+      "role_id": "constitutional_law",
+      "path": "roles/constitutional_law/role.json",
+      "summary": "Defines law, schemas, invariants, severity rules, and projection contracts.",
+      "root_ref": "roles/constitutional_law/root.yaml"
+    },
+    {
+      "role_id": "docs",
+      "path": "roles/docs/role.json",
+      "summary": "Routes and explains documentation without replacing constitutional law, accepted state, or proof publication."
+    },
+    {
+      "role_id": "evidence_root",
+      "path": "roles/evidence_root/role.json",
+      "summary": "Holds evidence-root current-state, artifact index, and consistency surfaces subordinate to law and accepted epoch."
+    },
+    {
+      "role_id": "governance",
+      "path": "roles/governance/role.json",
+      "summary": "Defines or enforces governed-repository membership, review discipline, and branch-policy expectations without becoming constitutional law itself."
+    },
+    {
+      "role_id": "intake",
+      "path": "roles/intake/role.json",
+      "summary": "Accepts or filters human submissions into structured reviewable signal without absorbing jobs, proof, or runtime semantics."
+    },
+    {
+      "role_id": "proof_publication",
+      "path": "roles/proof_publication/role.json",
+      "summary": "Publishes proof or proof-linked material derived from already-defined truth surfaces."
+    },
+    {
+      "role_id": "reconciler",
+      "path": "roles/reconciler/role.json",
+      "summary": "Collects, normalizes, evaluates, repairs, quarantines, and emits epoch candidates.",
+      "root_ref": "roles/reconciler/root.yaml"
+    },
+    {
+      "role_id": "reference",
+      "path": "roles/reference/role.json",
+      "summary": "Represents a bounded reference surface that explains or exposes already-defined truth without becoming the source of that truth."
+    },
+    {
+      "role_id": "root",
+      "path": "roles/root/role.json",
+      "summary": "Owns the primary public root entry surface and links adjacent canonical surfaces without collapsing their roles."
+    },
+    {
+      "role_id": "runtime",
+      "path": "roles/runtime/role.json",
+      "summary": "Executes governed runtime or reconciliation behavior and emits receipts, outputs, or candidate state."
+    },
+    {
+      "role_id": "status",
+      "path": "roles/status/role.json",
+      "summary": "Publishes component health, incidents, and maintenance state for live surfaces."
+    },
+    {
+      "role_id": "tool",
+      "path": "roles/tool/role.json",
+      "summary": "Represents an operator or user-facing tool surface with bounded executable or interactive function."
+    },
+    {
+      "role_id": "verification",
+      "path": "roles/verification/role.json",
+      "summary": "Provides verifier-facing interfaces that evaluate artifacts or certificates against already-defined rules."
+    },
+    {
+      "role_id": "world_state",
+      "path": "roles/world_state/role.json",
+      "summary": "Stores accepted graph, epoch, trust, contradiction, and history outputs.",
+      "root_ref": "roles/world_state/root.yaml"
+    }
+  ]
+}

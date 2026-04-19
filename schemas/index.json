@@ -1,0 +1,101 @@
+{
+  "object_type": "SchemaCatalog",
+  "status": "ACTIVE_TRUTH",
+  "historical": false,
+  "schema_set_version": "0.1.0",
+  "entries": [
+    {
+      "schema_id": "epoch",
+      "path": "schemas/epoch/epoch.schema.json",
+      "title": "Epoch",
+      "$id": "https://verifrax.net/schemas/epoch/epoch.schema.json"
+    },
+    {
+      "schema_id": "world",
+      "path": "schemas/graph/world.schema.json",
+      "title": "WorldGraph",
+      "$id": "https://verifrax.net/schemas/graph/world.schema.json"
+    },
+    {
+      "schema_id": "artifact",
+      "path": "schemas/object/artifact.schema.json",
+      "title": "Artifact",
+      "$id": "https://verifrax.net/schemas/object/artifact.schema.json"
+    },
+    {
+      "schema_id": "badge",
+      "path": "schemas/object/badge.schema.json",
+      "title": "Badge"
+    },
+    {
+      "schema_id": "evidence_surface",
+      "path": "schemas/object/evidence_surface.schema.json",
+      "title": "EvidenceSurface"
+    },
+    {
+      "schema_id": "host",
+      "path": "schemas/object/host.schema.json",
+      "title": "Host",
+      "$id": "https://verifrax.net/schemas/object/host.schema.json"
+    },
+    {
+      "schema_id": "package",
+      "path": "schemas/object/package.schema.json",
+      "title": "Package",
+      "$id": "https://verifrax.net/schemas/object/package.schema.json"
+    },
+    {
+      "schema_id": "quarantine_record",
+      "path": "schemas/object/quarantine_record.schema.json",
+      "title": "QuarantineRecord"
+    },
+    {
+      "schema_id": "repair_plan",
+      "path": "schemas/object/repair_plan.schema.json",
+      "title": "RepairPlan"
+    },
+    {
+      "schema_id": "repository",
+      "path": "schemas/object/repository.schema.json",
+      "title": "Repository",
+      "$id": "https://verifrax.net/schemas/object/repository.schema.json"
+    },
+    {
+      "schema_id": "trust_summary",
+      "path": "schemas/object/trust_summary.schema.json",
+      "title": "TrustSummary"
+    },
+    {
+      "schema_id": "verdict",
+      "path": "schemas/object/verdict.schema.json",
+      "title": "VERIFRAX Verdict",
+      "$id": "https://verifrax.net/schemas/object/verdict.schema.json"
+    },
+    {
+      "schema_id": "artifact_entry",
+      "path": "schemas/projection/artifact_entry.schema.json",
+      "title": "ArtifactEntryProjection"
+    },
+    {
+      "schema_id": "host_entry",
+      "path": "schemas/projection/host_entry.schema.json",
+      "title": "HostEntryProjection"
+    },
+    {
+      "schema_id": "package_entry",
+      "path": "schemas/projection/package_entry.schema.json",
+      "title": "PackageEntryProjection"
+    },
+    {
+      "schema_id": "readme_contract",
+      "path": "schemas/projection/readme_contract.schema.json",
+      "title": "ReadmeContract",
+      "$id": "https://verifrax.net/schemas/projection/readme_contract.schema.json"
+    },
+    {
+      "schema_id": "repo_entry",
+      "path": "schemas/projection/repo_entry.schema.json",
+      "title": "RepoEntryProjection"
+    }
+  ]
+}

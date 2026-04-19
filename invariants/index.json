@@ -1,0 +1,122 @@
+{
+  "object_type": "InvariantCatalog",
+  "status": "ACTIVE_TRUTH",
+  "historical": false,
+  "catalog_version": "0.1.0",
+  "entries": [
+    {
+      "invariant_id": "invariants/artifact/local_active_files_match_root_truth",
+      "path": "invariants/artifact/local_active_files_match_root_truth.md",
+      "category": "artifact",
+      "format": "md"
+    },
+    {
+      "invariant_id": "invariants/evidence/indexes_must_not_mask_current_truth",
+      "path": "invariants/evidence/indexes_must_not_mask_current_truth.md",
+      "category": "evidence",
+      "format": "md"
+    },
+    {
+      "invariant_id": "invariants/global/apache_2_license_permanence",
+      "path": "invariants/global/apache_2_license_permanence.md",
+      "category": "global",
+      "format": "md"
+    },
+    {
+      "invariant_id": "invariants/global/default_branch_main",
+      "path": "invariants/global/default_branch_main.md",
+      "category": "global",
+      "format": "md"
+    },
+    {
+      "invariant_id": "invariants/global/historical_surfaces_self_identify",
+      "path": "invariants/global/historical_surfaces_self_identify.md",
+      "category": "global",
+      "format": "md"
+    },
+    {
+      "invariant_id": "invariants/global/no_projection_outranks_law_or_epoch",
+      "path": "invariants/global/no_projection_outranks_law_or_epoch.yaml",
+      "category": "global",
+      "format": "yaml"
+    },
+    {
+      "invariant_id": "invariants/global/no_public_verdict_outranks_accepted_state",
+      "path": "invariants/global/no_public_verdict_outranks_accepted_state.yaml",
+      "category": "global",
+      "format": "yaml"
+    },
+    {
+      "invariant_id": "invariants/global/no_verdict_without_pinned_law",
+      "path": "invariants/global/no_verdict_without_pinned_law.yaml",
+      "category": "global",
+      "format": "yaml"
+    },
+    {
+      "invariant_id": "invariants/global/one_active_truth",
+      "path": "invariants/global/one_active_truth.md",
+      "category": "global",
+      "format": "md"
+    },
+    {
+      "invariant_id": "invariants/global/one_active_truth",
+      "path": "invariants/global/one_active_truth.yaml",
+      "category": "global",
+      "format": "yaml"
+    },
+    {
+      "invariant_id": "invariants/global/one_host_one_owner",
+      "path": "invariants/global/one_host_one_owner.yaml",
+      "category": "global",
+      "format": "yaml"
+    },
+    {
+      "invariant_id": "invariants/global/one_host_one_owner_one_role",
+      "path": "invariants/global/one_host_one_owner_one_role.md",
+      "category": "global",
+      "format": "md"
+    },
+    {
+      "invariant_id": "invariants/global/one_package_one_source_repo",
+      "path": "invariants/global/one_package_one_source_repo.md",
+      "category": "global",
+      "format": "md"
+    },
+    {
+      "invariant_id": "invariants/global/one_repo_one_primary_role",
+      "path": "invariants/global/one_repo_one_primary_role.md",
+      "category": "global",
+      "format": "md"
+    },
+    {
+      "invariant_id": "invariants/global/projection_subordination",
+      "path": "invariants/global/projection_subordination.md",
+      "category": "global",
+      "format": "md"
+    },
+    {
+      "invariant_id": "invariants/global/thirty_second_legibility",
+      "path": "invariants/global/thirty_second_legibility.md",
+      "category": "global",
+      "format": "md"
+    },
+    {
+      "invariant_id": "invariants/host/body_contract_matches_role",
+      "path": "invariants/host/body_contract_matches_role.md",
+      "category": "host",
+      "format": "md"
+    },
+    {
+      "invariant_id": "invariants/package/published_package_has_source_repo",
+      "path": "invariants/package/published_package_has_source_repo.md",
+      "category": "package",
+      "format": "md"
+    },
+    {
+      "invariant_id": "invariants/repo/readme_subordinate_to_reality",
+      "path": "invariants/repo/readme_subordinate_to_reality.md",
+      "category": "repo",
+      "format": "md"
+    }
+  ]
+}

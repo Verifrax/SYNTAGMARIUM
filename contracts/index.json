@@ -1,0 +1,28 @@
+{
+  "object_type": "ContractCatalog",
+  "status": "ACTIVE_TRUTH",
+  "historical": false,
+  "catalog_version": "0.1.0",
+  "entries": [
+    {
+      "contract_id": "contracts/host_body/required_fields",
+      "path": "contracts/host_body/required_fields.yaml",
+      "format": "yaml"
+    },
+    {
+      "contract_id": "contracts/npm/package_contract",
+      "path": "contracts/npm/package_contract.yaml",
+      "format": "yaml"
+    },
+    {
+      "contract_id": "contracts/readme/readme_contract.schema",
+      "path": "contracts/readme/readme_contract.schema.json",
+      "format": "json"
+    },
+    {
+      "contract_id": "contracts/readme/required_sections",
+      "path": "contracts/readme/required_sections.yaml",
+      "format": "yaml"
+    }
+  ]
+}
