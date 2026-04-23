@@ -146,3 +146,7 @@ SYNTAGMARIUM governs doctrine;
 ORBISTIUM carries canonical world-state;
 TACHYRIUM governs cognition;
 CONSONORIUM governs reconciliation.
+
+## License
+
+This repository is licensed under the Apache License 2.0. See `LICENSE`.
