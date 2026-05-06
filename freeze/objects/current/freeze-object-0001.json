@@ -2,33 +2,52 @@
   "object_type": "FreezeObject",
   "freeze_object_id": "freeze-object-0001",
   "status": "ACTIVE_TRUTH",
-  "title": "SYNTAGMARIUM minimum freeze object",
-  "governing_law_version_ref": "law/versions/current/law-version-0001.json",
-  "admission_index_ref": "claim-classes/index.json",
-  "claim_class_ref": "claim-classes/freeze-object.json",
-  "scope": {
-    "surface": "SYNTAGMARIUM",
-    "boundary": "constitutional-law freeze identity for the minimum governed object chain"
-  },
-  "freezes_minimum_object_chain": [
-    "law-version",
-    "freeze-object",
-    "accepted-epoch",
-    "authority-object",
-    "execution-receipt",
-    "verification-result",
-    "recognition-object",
-    "recourse-object",
-    "continuity-transfer"
+  "governing_boundary": "SYNTAGMARIUM",
+  "purpose": "Freeze the first bounded constitutional chain prefix so law, freeze, accepted epoch, and authority cannot be advanced, substituted, or inferred by projection freshness.",
+  "law_version_ref": "https://github.com/Verifrax/SYNTAGMARIUM/blob/main/law/versions/current/law-version-0001.json",
+  "claim_class_admission_ref": "https://github.com/Verifrax/SYNTAGMARIUM/blob/main/claim-classes/current/claim-class-admission-0001.json",
+  "accepted_epoch_ref": "https://github.com/Verifrax/ORBISTIUM/blob/main/epochs/current/accepted-epoch-0001.json",
+  "chain_lock_ref": "https://github.com/Verifrax/ORBISTIUM/blob/main/chains/current/minimum-object-chain-lock-0001.json",
+  "authority_object_ref": "https://github.com/Verifrax/AUCTORISEAL/blob/main/authorities/current/authority-object-0001.json",
+  "frozen_scope": "artifact-0005 minimum governed object chain prefix",
+  "frozen_chain_prefix": [
+    {
+      "stage": 1,
+      "claim_class": "law-version",
+      "owner": "SYNTAGMARIUM",
+      "object_ref": "https://github.com/Verifrax/SYNTAGMARIUM/blob/main/law/versions/current/law-version-0001.json",
+      "status": "FROZEN_ACTIVE_TRUTH"
+    },
+    {
+      "stage": 2,
+      "claim_class": "freeze-object",
+      "owner": "SYNTAGMARIUM",
+      "object_ref": "https://github.com/Verifrax/SYNTAGMARIUM/blob/main/freeze/objects/current/freeze-object-0001.json",
+      "status": "FROZEN_ACTIVE_TRUTH"
+    },
+    {
+      "stage": 3,
+      "claim_class": "accepted-epoch",
+      "owner": "ORBISTIUM",
+      "object_ref": "https://github.com/Verifrax/ORBISTIUM/blob/main/epochs/current/accepted-epoch-0001.json",
+      "status": "FROZEN_ACTIVE_TRUTH"
+    },
+    {
+      "stage": 4,
+      "claim_class": "authority-object",
+      "owner": "AUCTORISEAL",
+      "object_ref": "https://github.com/Verifrax/AUCTORISEAL/blob/main/authorities/current/authority-object-0001.json",
+      "status": "FROZEN_ACTIVE_TRUTH"
+    }
   ],
-  "invariants": [
-    "must distinguish current freeze identity from historical freeze lineage",
-    "must remain subordinate to current law-version object",
-    "must not let archive text or digest notes impersonate active freeze identity"
-  ],
-  "historical_archive_ref": "freeze/objects/history/",
-  "notes": [
-    "This is the concrete current freeze object required by Gate C.",
-    "Historical freeze lineage must remain separated from active freeze identity."
+  "dominance_rule": "The active chain prefix may be cited by projections but may not be advanced, rewound, renamed, replaced, omitted, or expanded by projection.",
+  "refusal_rule": "If a claim depends on frozen authority but freeze-object-0001 or authority-object-0001 is absent, stale, ambiguous, substituted, or contradicted, ADMISSORIUM and SDKs must refuse rather than infer authority.",
+  "forbidden_reads": [
+    "README authority language presented as frozen authority",
+    "package version presented as frozen authority",
+    "Git tag presented as frozen authority",
+    "host deployment freshness presented as frozen authority",
+    "ADMISSORIUM report presented as frozen authority",
+    "status page presented as frozen authority"
   ]
 }
