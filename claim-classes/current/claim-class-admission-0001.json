@@ -1,0 +1,71 @@
+{
+  "object_type": "ClaimClassAdmission",
+  "claim_class_admission_id": "claim-class-admission-0001",
+  "status": "ACTIVE_LAW",
+  "governing_boundary": "SYNTAGMARIUM",
+  "purpose": "Declare the minimum admitted claim classes that may participate in the first bounded constitutional object chain.",
+  "chain_lock_ref": "https://github.com/Verifrax/ORBISTIUM/blob/main/chains/current/minimum-object-chain-lock-0001.json",
+  "admitted_claim_classes": [
+    {
+      "order": 1,
+      "claim_class": "law-version",
+      "owner": "SYNTAGMARIUM",
+      "required": true
+    },
+    {
+      "order": 2,
+      "claim_class": "freeze-object",
+      "owner": "SYNTAGMARIUM",
+      "required": true
+    },
+    {
+      "order": 3,
+      "claim_class": "accepted-epoch",
+      "owner": "ORBISTIUM",
+      "required": true
+    },
+    {
+      "order": 4,
+      "claim_class": "authority-object",
+      "owner": "AUCTORISEAL",
+      "required": true
+    },
+    {
+      "order": 5,
+      "claim_class": "execution-receipt",
+      "owner": "CORPIFORM",
+      "required": true
+    },
+    {
+      "order": 6,
+      "claim_class": "verification-result",
+      "owner": "VERIFRAX",
+      "required": true
+    },
+    {
+      "order": 7,
+      "claim_class": "recognition-object",
+      "owner": "ANAGNORIUM",
+      "required": true
+    },
+    {
+      "order": 8,
+      "claim_class": "recourse-object",
+      "owner": "REGRESSORIUM",
+      "required": true
+    },
+    {
+      "order": 9,
+      "claim_class": "continuity-transfer",
+      "owner": "SYNTAGMARIUM",
+      "required": true
+    }
+  ],
+  "forbidden_reads": [
+    "Repository names do not create admitted claim classes.",
+    "Package names do not create admitted claim classes.",
+    "Host pages do not create admitted claim classes.",
+    "ADMISSORIUM reports do not create admitted claim classes.",
+    "Projection text does not create admitted claim classes."
+  ]
+}

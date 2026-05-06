@@ -1,0 +1,13 @@
+{
+  "object_type": "ClaimClassAdmissionIndex",
+  "status": "ACTIVE_LAW",
+  "governing_boundary": "SYNTAGMARIUM",
+  "current_claim_class_admission_ref": "claim-classes/current/claim-class-admission-0001.json",
+  "entries": [
+    {
+      "claim_class_admission_id": "claim-class-admission-0001",
+      "path": "claim-classes/current/claim-class-admission-0001.json",
+      "status": "ACTIVE_LAW"
+    }
+  ]
+}
