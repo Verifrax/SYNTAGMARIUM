@@ -1,0 +1,15 @@
+{
+  "object_type": "FreezeObjectIndex",
+  "status": "ACTIVE_TRUTH",
+  "governing_boundary": "SYNTAGMARIUM",
+  "current_freeze_object_ref": "freeze/objects/current/freeze-object-0001.json",
+  "entries": [
+    {
+      "freeze_object_id": "freeze-object-0001",
+      "path": "freeze/objects/current/freeze-object-0001.json",
+      "status": "ACTIVE_TRUTH",
+      "scope": "artifact-0005 minimum governed object chain prefix"
+    }
+  ],
+  "historical_archive_ref": "freeze/objects/history/"
+}
