@@ -1,0 +1,28 @@
+{
+  "answers": "WHAT_MAY_COUNT",
+  "authority_boundary": {
+    "may_define": [
+      "claim_classes",
+      "object_classes",
+      "role_classes",
+      "invariants",
+      "transitions",
+      "severity_rules",
+      "projection_contracts"
+    ],
+    "may_not_define": [
+      "accepted_current_state",
+      "runtime_truth",
+      "terminal_truth",
+      "operator_authorization",
+      "execution_result",
+      "repair_execution",
+      "completion_claim"
+    ]
+  },
+  "canonical_id": "SYNTAGMARIUM_V010_LAW_KERNEL",
+  "role": "CONSTITUTIONAL_LAW_LIBRARY",
+  "state": "LAW_KERNEL_DECLARED",
+  "subsystem": "SYNTAGMARIUM",
+  "version": "0.1.0"
+}

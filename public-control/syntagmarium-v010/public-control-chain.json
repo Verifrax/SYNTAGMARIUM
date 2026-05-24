@@ -1,0 +1,65 @@
+{
+  "answers": "WHAT_MAY_COUNT",
+  "canonical_id": "SYNTAGMARIUM_V010",
+  "law_kernel_scope": {
+    "contains": [
+      "ontology",
+      "object_schemas",
+      "role_definitions",
+      "invariants",
+      "severity_rules",
+      "transition_rules",
+      "exception_rules",
+      "constitutional_wording_contracts",
+      "projection_contracts",
+      "admission_doctrine",
+      "host_boundary_contracts",
+      "package_boundary_contracts"
+    ],
+    "forbids": [
+      "live_repo_inventory_as_law",
+      "accepted_epoch_data_as_law",
+      "runtime_collectors",
+      "reconciler_execution_state",
+      "operational_repair_pull_requests",
+      "ai_summaries_as_law",
+      "package_download_state_as_law",
+      "host_liveness_as_law"
+    ]
+  },
+  "next_valid_action": "PUBLISH_SYNTAGMARIUM_V010_PUBLIC_CONTROL_SEAL",
+  "previous_closed_subsystem": {
+    "id": "ADMISSORIUM_V020",
+    "public_control_closure_sha": "c49855522ae348d5310f6c291642ae414b7a66b5",
+    "state": "VERIFRAX_ADMISSORIUM_V020_PUBLIC_CONTROL_CLOSED"
+  },
+  "role": "LAW",
+  "source_gate_evaluation": {
+    "blocking_reason": "ONLY_ONE_SUBSYSTEM_REGISTERED",
+    "decision": "NOT_COMPLETE",
+    "sha": "7b100a99fb6574a2969910c41e457d9ce3d0ab46",
+    "state": "VERIFRAX_SYSTEM_COMPLETION_GATE_EVALUATION_OPEN"
+  },
+  "source_intake": {
+    "sha": "d2dfd7630af29b45e448f51c00c29b634d64ec94",
+    "state": "SYNTAGMARIUM_V010_PUBLIC_CONTROL_CHAIN_INTAKE_OPEN",
+    "url": "https://www.verifrax.net/system/syntagmarium-v010/public-control-intake.json"
+  },
+  "source_queue": {
+    "sha": "9165c58f7678667e5b4f0efad9c43f7f83b2b8d7",
+    "state": "VERIFRAX_SUBSYSTEM_CLOSURE_QUEUE_OPEN"
+  },
+  "state": "SYNTAGMARIUM_V010_PUBLIC_CONTROL_CHAIN_OPEN",
+  "subsystem": "SYNTAGMARIUM",
+  "subsystem_version": "0.1.0",
+  "system": "VERIFRAX",
+  "truth_warning": "NOT_VERIFRAX_SYSTEM_COMPLETION_CLAIM",
+  "verifrax_system_complete": false,
+  "writer_boundary": {
+    "operational_authorization": false,
+    "package_publish": false,
+    "real_writer": false,
+    "token_persistence": false,
+    "truth_mutation": false
+  }
+}
